@@ -42,4 +42,4 @@ http://localhost:4200
 
 ##  Demo Video
 
-https://drive.google.com/file/d/1LnOjgrafRqIYQ9rGxveE2_qR36Qa4MbH/view?usp=drive_link
+https://drive.google.com/file/d/1CVD2n5zAsMLgUcO1CLO7x9qaSH67NA1Y/view?usp=drive_link
