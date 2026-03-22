@@ -1,0 +1,11 @@
+<div class="result-container">
+  <h2>Game Over!</h2>
+  <p>Your final score: {{ finalScore }}</p>
+
+  <h3>Leaderboard (Top 5)</h3>
+  <ul>
+    <li *ngFor="let score of scores">{{ score }}</li>
+  </ul>
+
+  <button routerLink="/">Back to Landing</button>
+</div>

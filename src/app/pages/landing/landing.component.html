@@ -1,0 +1,17 @@
+<div class="landing-wrapper">
+
+  <h1>🎮 Hand Betting Game</h1>
+
+  <button class="play-btn" routerLink="/game">
+    ▶ START GAME
+  </button>
+
+  <div class="leaderboard">
+    <h3>🏆 Leaderboard</h3>
+
+    <div class="score" *ngFor="let score of scores; let i = index">
+      #{{ i + 1 }} - {{ score }}
+    </div>
+  </div>
+
+</div>

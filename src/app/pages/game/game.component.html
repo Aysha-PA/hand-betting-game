@@ -1,0 +1,24 @@
+
+<div class="game-container">
+ <button routerLink="/" class="exit-btn" >Exit Game</button>
+  <h2>Current Hand: Total {{ getTotal(currentHand) }}</h2>
+
+  <div class="hand">
+    <div class="tile" *ngFor="let tile of currentHand">
+      {{ tile.name }}<br/>{{ tile.value }}
+    </div>
+  </div>
+<div *ngIf="previousHand.length">
+  <h4>Previous Hand</h4>
+  <div class="hand">
+    <div class="tile small" *ngFor="let tile of previousHand">
+      {{ tile.name }}<br/>{{ tile.value }}
+    </div>
+  </div>
+</div>
+  <div class="controls">
+    <button (click)="betHigher()">Bet Higher</button>
+    <button (click)="betLower()">Bet Lower</button>
+  </div>
+  
+</div>

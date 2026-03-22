@@ -1,0 +1,42 @@
+.landing-wrapper {
+  height: 100vh;
+  background: radial-gradient(circle at top, #0d2a3a, #021520);
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+/* Play Button */
+.play-btn {
+  padding: 15px 40px;
+  font-size: 18px;
+  border-radius: 15px;
+  background: #4caf50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.play-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Leaderboard */
+.leaderboard {
+  margin-top: 50px;
+}
+
+.score {
+  background: #1e2f3f;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+}

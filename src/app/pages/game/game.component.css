@@ -1,0 +1,160 @@
+/* 
+.game-container { text-align: center; padding: 20px; }
+
+.hand { display: flex; justify-content: center; flex-wrap: wrap; margin-bottom: 42px; }
+
+.tile {
+  padding: 10px;
+  width: 60px;
+  height: 80px;
+  margin: 5px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+  font-weight: bold;
+  line-height: 80px;
+  transition: transform 0.2s, opacity 0.3s;
+  animation: fadeIn 0.3s ease;
+}
+
+.tile:hover { transform: scale(1.1); }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.controls button:hover {
+  transform: scale(1.05);
+  background-color: #45a049;
+}
+   */
+
+   /* Background */
+.game-container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  background: radial-gradient(circle at top, #0d2a3a, #021520);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Title */
+.game-container h2 {
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* Hand layout */
+.hand {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  gap: 15px;
+}
+
+/* Tile (Card Style) */
+.tile {
+  width: 80px;
+  height: 110px;
+  background: #f2f2f2;
+  color: black;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Hover Effect */
+.tile:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.7);
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Buttons */
+.controls button {
+  width: 180px;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Higher Button (Green) */
+.controls button:first-child {
+  background: #4caf50;
+  color: white;
+}
+
+/* Lower Button (Red) */
+.controls button:last-child {
+  background: #ff3b30;
+  color: white;
+}
+
+/* Hover Effects */
+.controls button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Button Click Effect */
+.controls button:active {
+  transform: scale(0.95);
+}
+
+.exit-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #1e2f3f;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tile.small {
+  width: 50px;
+  height: 70px;
+  font-size: 10px;
+  opacity: 0.7;
+}
