@@ -1,59 +1,45 @@
-# HandBettingGame
+# Hand Betting Game
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.22.
+##  Overview
+A simple interactive hand betting game where users predict whether the next hand value will be higher or lower.
 
-## Development server
+## Features
+- Bet Higher / Lower functionality
+- Visual representation of tiles/cards
+- Score tracking
+- History view
+- Leaderboard using localStorage
 
-To start a local development server, run:
+## Tech Stack
+- Frontend: Angular
+- Storage: localStorage
 
-```bash
+## Setup Instructions
+
+1. Clone the repo:
+git clone https://github.com/Aysha-PA/hand-betting-game.git
+
+2. Install dependencies:
+npm install
+
+3. Run the app:
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+4. Open browser:
+http://localhost:4200
 
-## Code scaffolding
+##  AI Usage
+- Used AI (ChatGPT) for:
+  - Debugging errors
+  - Structuring code
+  - Fixing Git issues
+  
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Handwritten:
+  - Game logic
+  - UI components
+  - Services and features
 
-```bash
-ng generate component component-name
-```
+##  Demo Video
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+https://drive.google.com/file/d/1LnOjgrafRqIYQ9rGxveE2_qR36Qa4MbH/view?usp=drive_link
